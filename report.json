@@ -1,0 +1,94 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 5,
+    "start": "2022-01-24T23:25:20.960Z",
+    "end": "2022-01-24T23:25:20.985Z",
+    "duration": 25
+  },
+  "tests": [
+    {
+      "title": "should be successful by initialize factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful by initialize factoryService instance.",
+      "duration": 21,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "message": "the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)"
+      }
+    },
+    {
+      "title": "should be successful to query via factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful to query via factoryService instance.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot enqueue Query after fatal error.\n    at Protocol._validateEnqueue (node_modules/mysql/lib/protocol/Protocol.js:212:16)\n    at Protocol._enqueue (node_modules/mysql/lib/protocol/Protocol.js:138:13)\n    at Connection.query (node_modules/mysql/lib/Connection.js:198:25)\n    at /Users/84mhz/Dev_84/codestates/Section_3/im-sprint-learn-sql/lib/common/mysql.js:69:23\n    at new Promise (<anonymous>)\n    at FactoryService.query (lib/common/mysql.js:68:12)\n    at Context.<anonymous> (__tests__/part3.test.js:22:50)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot enqueue Query after fatal error.",
+        "code": "PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR",
+        "fatal": false,
+        "uncaught": true
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should be successful by initialize factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful by initialize factoryService instance.",
+      "duration": 21,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "message": "the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)"
+      }
+    },
+    {
+      "title": "should be successful to query via factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful to query via factoryService instance.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot enqueue Query after fatal error.\n    at Protocol._validateEnqueue (node_modules/mysql/lib/protocol/Protocol.js:212:16)\n    at Protocol._enqueue (node_modules/mysql/lib/protocol/Protocol.js:138:13)\n    at Connection.query (node_modules/mysql/lib/Connection.js:198:25)\n    at /Users/84mhz/Dev_84/codestates/Section_3/im-sprint-learn-sql/lib/common/mysql.js:69:23\n    at new Promise (<anonymous>)\n    at FactoryService.query (lib/common/mysql.js:68:12)\n    at Context.<anonymous> (__tests__/part3.test.js:22:50)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot enqueue Query after fatal error.",
+        "code": "PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR",
+        "fatal": false,
+        "uncaught": true
+      }
+    },
+    {
+      "title": "\"before all\" hook for \"Q 3-1. 현재 있는 데이터베이스에 존재하는 모든 테이블 정보를 보기위한 SQL을 작성해주세요.\"",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema \"before all\" hook for \"Q 3-1. 현재 있는 데이터베이스에 존재하는 모든 테이블 정보를 보기위한 SQL을 작성해주세요.\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "message": "the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)"
+      }
+    },
+    {
+      "title": "\"before all\" hook for \"Q 4-1. user 테이블에 존재하는 모든 컬럼을 포함한 모든 데이터를 확인하기 위한 SQL을 작성해주세요.\"",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL \"before all\" hook for \"Q 4-1. user 테이블에 존재하는 모든 컬럼을 포함한 모든 데이터를 확인하기 위한 SQL을 작성해주세요.\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "message": "the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)"
+      }
+    },
+    {
+      "title": "\"before all\" hook in \"part 5 - 추가 요구조건과 스키마\"",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 \"before all\" hook in \"part 5 - 추가 요구조건과 스키마\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "message": "the string \"connect ECONNREFUSED 127.0.0.1:3306\" was thrown, throw an Error :)"
+      }
+    }
+  ],
+  "passes": []
+}
